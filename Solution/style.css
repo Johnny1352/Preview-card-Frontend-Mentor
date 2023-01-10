@@ -60,7 +60,9 @@ html {
 .checkout {
   display: flex;
   justify-content: space-between;
+  align-items: center;
   font-family: "Fraunces", serif;
+  margin-bottom: 32px;
 }
 
 .price {
@@ -71,6 +73,29 @@ html {
 .discount {
   text-decoration: line-through rgb(80, 80, 80);
   color: rgb(80, 80, 80);
+}
+
+button,
+button:link,
+button:active {
+  background-color: hsl(158, 36%, 37%);
+  border: none;
+  border-radius: 5px;
+  height: 48px;
+  color: #fff;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 32px;
+}
+
+button:hover,
+button:visited {
+  background-color: hsl(158, 34%, 50%);
+  cursor: pointer;
+}
+
+.cart-icon {
+  font-size: 18px;
 }
 
 .attribution {
