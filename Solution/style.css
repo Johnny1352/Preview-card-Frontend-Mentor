@@ -10,51 +10,55 @@ body {
 
 html {
   font-family: "Montserrat", sans-serif;
+  font-size: 62.5%;
 }
 
 .card {
   display: flex;
-  width: 600px;
-  margin: 150px auto;
+  width: 60rem;
+  margin: 15rem auto;
   perspective: 1px;
-  border-radius: 14px;
+  border-radius: 1.4rem;
   overflow: hidden;
 }
 
-.img {
-  height: 450px;
+.img1 {
+  height: 45rem;
+}
+
+.img2 {
+  display: none;
 }
 
 .content-div {
   background-color: #fff;
   display: flex;
   flex-direction: column;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 0 3rem;
 }
 
 .category {
-  font-size: 12px;
-  letter-spacing: 4px;
+  font-size: 1.2rem;
+  letter-spacing: 0.4rem;
   text-transform: uppercase;
   color: rgb(127, 127, 127);
-  margin-top: 14px;
-  margin-bottom: 12px;
+  margin-top: 1.8rem;
+  margin-bottom: 1.2rem;
 }
 
 .heading {
   font-family: "Fraunces", serif;
-  font-size: 32px;
+  font-size: 3.2rem;
   font-weight: 700;
-  letter-spacing: -1px;
-  margin-bottom: 14px;
+  letter-spacing: -0.05rem;
+  margin-bottom: 1.4rem;
 }
 
 .description {
   color: rgb(127, 127, 127);
-  font-size: 12px;
-  line-height: 24px;
-  margin-bottom: 14px;
+  font-size: 1.2rem;
+  line-height: 2.4rem;
+  margin-bottom: 1.4rem;
 }
 
 .checkout {
@@ -62,11 +66,11 @@ html {
   justify-content: space-between;
   align-items: center;
   font-family: "Fraunces", serif;
-  margin-bottom: 32px;
+  margin-bottom: 3.2rem;
 }
 
 .price {
-  font-size: 36px;
+  font-size: 3.6rem;
   color: hsl(158, 36%, 37%);
 }
 
@@ -81,11 +85,11 @@ button:active {
   background-color: hsl(158, 36%, 37%);
   border: none;
   border-radius: 5px;
-  height: 48px;
+  height: 4.8rem;
   color: #fff;
-  font-size: 18px;
+  font-size: 1.8rem;
   font-family: "Montserrat", sans-serif;
-  margin-bottom: 32px;
+  margin-bottom: 3.2rem;
 }
 
 button:hover,
@@ -95,11 +99,11 @@ button:visited {
 }
 
 .cart-icon {
-  font-size: 18px;
+  font-size: 2rem;
 }
 
 .attribution {
-  font-size: 11px;
+  font-size: 1.2rem;
   text-align: center;
 }
 .attribution a {
