@@ -1,56 +1,8 @@
-/* CSS reset */
-
-*,
-*::after {
-  box-sizing: border-box;
-}
-
 * {
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-
-html,
-body {
-  height: 100%;
-}
-
-body {
-  line-height: 1.5;
-  -webkit-font-smoothing: antialiased;
-}
-
-img,
-picture,
-video,
-canvas,
-svg {
-  display: block;
-  max-width: 100%;
-}
-
-input,
-button,
-textarea,
-select {
-  font: inherit;
-}
-
-p,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  overflow-wrap: break-word;
-}
-
-#root,
-#__next {
-  isolation: isolate;
-}
-
-/* Preview card */
 
 body {
   background-color: hsl(30, 38%, 92%);
@@ -59,17 +11,6 @@ body {
 html {
   font-family: "Montserrat", sans-serif;
   font-size: 62.5%;
-}
-
-.sr-only {
-  position: absolute;
-  width: 1px;
-  height: 1px;
-  padding: 0;
-  margin: -1px;
-  overflow: hidden;
-  clip: rect(0, 0, 0, 0);
-  border: 0;
 }
 
 .card {
@@ -128,12 +69,13 @@ html {
   margin-bottom: 3.2rem;
 }
 
-.new-price {
+.price {
   font-size: 3.6rem;
   color: hsl(158, 36%, 37%);
 }
 
-.old-price {
+.discount {
+  text-decoration: line-through rgb(80, 80, 80);
   color: rgb(80, 80, 80);
 }
 
