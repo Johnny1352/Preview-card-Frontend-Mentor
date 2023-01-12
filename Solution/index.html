@@ -31,51 +31,55 @@
     <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   </head>
   <body>
-    <div class="card">
-      <div class="image-div">
-        <img
-          class="img1"
-          alt="A picture of a perfume"
-          src="image-product-desktop.jpg"
-        />
-        <img
-          class="img2"
-          alt="A picture of a perfume"
-          src="image-product-mobile.jpg"
-        />
-      </div>
-      <div class="content-div">
-        <p class="category">perfume</p>
-        <p class="heading">Gabrielle Essence Eau De Parfum</p>
-        <p class="description">
-          A floral, solar and voluptuous interpretation composed by Olivier
-          Polge, Perfumer-Creator for the House of CHANEL.
-        </p>
-        <div class="checkout">
-          <p class="price">$149.99</p>
-          <p class="discount">$169.99</p>
+    <main>
+      <div class="card">
+        <div class="image-div">
+          <picture class="img">
+            <source
+              media="(min-width: 375px)"
+              srcset="image-product-desktop.jpg"
+            />
+            <img
+              src="image-product-mobile.jpg"
+              alt="A Boxed shape bottle that
+            contain 'Chanel' perfume that lies on a white table with green
+            leaves surrounding it"
+            />
+          </picture>
         </div>
-        <button href="#">
-          <ion-icon name="cart-outline" class="cart-icon"></ion-icon> Add to
-          Cart
-        </button>
+        <div class="content-div">
+          <p class="category">perfume</p>
+          <p class="heading">Gabrielle Essence Eau De Parfum</p>
+          <p class="description">
+            A floral, solar and voluptuous interpretation composed by Olivier
+            Polge, Perfumer-Creator for the House of CHANEL.
+          </p>
+          <div class="checkout">
+            <p class="price">$149.99</p>
+            <p class="discount">$169.99</p>
+          </div>
+          <button href="#">
+            <ion-icon name="cart-outline" class="cart-icon"></ion-icon> Add to
+            Cart
+          </button>
+        </div>
       </div>
-    </div>
-    <footer>
-      <div class="attribution">
-        Challenge by
-        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
-          >Frontend Mentor</a
-        >. Coded by <a href="#">Yonatan Malca</a>.
-      </div>
-    </footer>
-    <script
-      type="module"
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-    ></script>
-    <script
-      nomodule
-      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-    ></script>
+      <footer>
+        <div class="attribution">
+          Challenge by
+          <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+            >Frontend Mentor</a
+          >. Coded by <a href="#">Yonatan Malca</a>.
+        </div>
+      </footer>
+      <script
+        type="module"
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+      ></script>
+      <script
+        nomodule
+        src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+      ></script>
+    </main>
   </body>
 </html>
