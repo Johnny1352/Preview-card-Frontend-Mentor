@@ -95,7 +95,7 @@ html {
 
 .heading {
   font-family: "Fraunces", serif;
-  font-size: 2rem;
+  font-size: 32px;
   font-weight: 700;
   letter-spacing: -0.0313rem;
   margin-bottom: 0.625rem;
@@ -127,9 +127,9 @@ html {
   color: rgb(80, 80, 80);
 }
 
-button,
-button:link,
-button:active {
+.btn,
+.btn:link,
+.btn:active {
   background-color: hsl(158, 36%, 37%);
   border: none;
   border-radius: 5px;
@@ -139,8 +139,8 @@ button:active {
   font-family: "Montserrat", sans-serif;
 }
 
-button:hover,
-button:visited {
+.btn:hover,
+.btn:visited {
   background-color: hsl(158, 34%, 50%);
   cursor: pointer;
 }
