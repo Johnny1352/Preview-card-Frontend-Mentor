@@ -1,16 +1,14 @@
-@media (max-width: 24em) {
-  .img1 {
-    display: none;
-  }
-
-  .img2 {
-    display: block;
-    overflow: hidden;
-    width: 30rem;
+@media (max-width: 23.4375em) {
+  img {
+    height: 20rem;
   }
 
   .card {
     flex-direction: column;
     width: 30rem;
+  }
+
+  .attribution {
+    font-size: 0.75rem;
   }
 }

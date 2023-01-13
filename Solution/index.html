@@ -33,16 +33,16 @@
   <body>
     <div class="card">
       <div class="image-div">
-        <img
-          class="img1"
-          alt="A picture of a perfume"
-          src="image-product-desktop.jpg"
-        />
-        <img
-          class="img2"
-          alt="A picture of a perfume"
-          src="image-product-mobile.jpg"
-        />
+        <picture>
+          <source
+            media="(min-width: 375px)"
+            srcset="image-product-desktop.jpg"
+          />
+          <img
+            src="image-product-mobile.jpg"
+            alt="A box sized perfume bottle `Chanel` branded that lies on top a white surface surounded by green leaves"
+          />
+        </picture>
       </div>
       <div class="content-div">
         <p class="category">perfume</p>
