@@ -22,12 +22,8 @@ html {
   overflow: hidden;
 }
 
-.img1 {
+img {
   height: 45rem;
-}
-
-.img2 {
-  display: none;
 }
 
 .content-div {
