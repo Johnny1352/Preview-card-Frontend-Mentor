@@ -1,8 +1,4 @@
 @media (max-width: 23.4375em) {
-  img {
-    height: 20rem;
-  }
-
   .card {
     flex-direction: column;
     width: 30rem;

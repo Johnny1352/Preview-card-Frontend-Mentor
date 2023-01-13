@@ -1,7 +1,63 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
 * {
   margin: 0;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+#root,
+#__next {
+  isolation: isolate;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
   padding: 0;
-  box-sizing: border-box;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
 }
 
 body {
@@ -22,10 +78,6 @@ html {
   overflow: hidden;
 }
 
-img {
-  height: 45rem;
-}
-
 .content-div {
   background-color: #fff;
   display: flex;
@@ -38,8 +90,8 @@ img {
   letter-spacing: 0.4rem;
   text-transform: uppercase;
   color: rgb(127, 127, 127);
-  margin-top: 1.8rem;
-  margin-bottom: 1.2rem;
+  margin-top: 1.4rem;
+  margin-bottom: 1rem;
 }
 
 .heading {
@@ -47,14 +99,14 @@ img {
   font-size: 3.2rem;
   font-weight: 700;
   letter-spacing: -0.05rem;
-  margin-bottom: 1.4rem;
+  margin-bottom: 1rem;
 }
 
 .description {
   color: rgb(127, 127, 127);
   font-size: 1.2rem;
   line-height: 2.4rem;
-  margin-bottom: 1.4rem;
+  margin-bottom: 1rem;
 }
 
 .checkout {
@@ -62,7 +114,7 @@ img {
   justify-content: space-between;
   align-items: center;
   font-family: "Fraunces", serif;
-  margin-bottom: 3.2rem;
+  margin-bottom: 2.8rem;
 }
 
 .price {
@@ -71,6 +123,7 @@ img {
 }
 
 .discount {
+  font-size: 1.6rem;
   text-decoration: line-through rgb(80, 80, 80);
   color: rgb(80, 80, 80);
 }
@@ -85,7 +138,6 @@ button:active {
   color: #fff;
   font-size: 1.8rem;
   font-family: "Montserrat", sans-serif;
-  margin-bottom: 3.2rem;
 }
 
 button:hover,
